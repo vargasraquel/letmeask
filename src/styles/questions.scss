@@ -19,9 +19,21 @@
 
     &.answered {
         background: #DBDCDD;
+        
 
         footer .user-info img {
             opacity: 0.5;
+        }
+    }
+
+    .like-admin {
+        color: #737380;
+        gap: 8px;
+        display: flex;
+
+        span {
+            display: flex;
+            align-items: center;
         }
     }
 
